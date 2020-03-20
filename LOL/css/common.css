@@ -1,0 +1,264 @@
+/*格式化样式*/
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset,
+img {
+    border: 0
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-style: normal;
+    font-weight: normal
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal；
+}
+
+
+/* 浮动 */
+
+.fl {
+    float: left;
+}
+
+.h206 {
+    height: 206px;
+}
+
+.h72 {
+    height: 72px;
+}
+
+.bgw {
+    background-color: white;
+}
+
+.pt-35 {
+    padding-top: 35px;
+    box-sizing: border-box;
+}
+
+.fr {
+    float: right;
+}
+
+
+/* 清除浮动 */
+
+.oh {
+    overflow: hidden;
+}
+
+.cb {
+    clear: both;
+}
+
+.cf::after {
+    content: '';
+    display: inline-block;
+    clear: both;
+}
+
+
+/* 字体颜色 */
+
+.font-red {
+    color: #ba2636;
+}
+
+.mt13 {
+    margin-top: 13px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mr22 {
+    margin-right: 16px;
+}
+
+.font-blue {
+    color: #004276;
+}
+
+.font-aqua {
+    color: aqua;
+}
+
+.font-gray {
+    color: #6e6c6d;
+}
+
+.font-white {
+    color: white;
+}
+
+
+/* 字体大小 */
+
+.font11 {
+    font-size: 11px;
+}
+
+.font8 {
+    font-size: 8px;
+}
+
+.font14 {
+    font-size: 14px;
+}
+
+.font12 {
+    font-size: 12px;
+}
+
+.font13 {
+    font-size: 13px;
+}
+
+.font-w {
+    font-weight: bolder;
+}
+
+.mr72 {
+    margin-right: 72px;
+}
+
+
+/* 上边距 */
+
+.mt16 {
+    margin-top: 16px;
+}
+
+
+/* 行高 */
+
+.lh40 {
+    line-height: 40px;
+}
+
+.tx-center {
+    text-align: center;
+}
+
+.border-ccc {
+    border-bottom: 1px solid #ccc;
+}
+
+.ml40 {
+    margin-left: 40px;
+}
+
+.w692 {
+    width: 692px;
+}
+
+.pr15 {
+    padding-right: 15px;
+}
+
+.font-24 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.ml15 {
+    margin-left: 15px;
+}
+
+.pt-2 {
+    padding-top: 2px;
+}
+
+.w402 {
+    width: 402px;
+}
+
+.h254 {
+    height: 254px;
+}
+
+.w820 {
+    width: 820px;
+}
+
+.mr16 {
+    margin-right: 16px;
+}
+
+.bg-color {
+    background-color: #e3e2e2;
+}
+
+.h35 {
+    height: 35px;
+    line-height: 35px;
+}
+
+.pt-45 {
+    padding-top: 45px;
+    box-sizing: border-box;
+}
+
+.jx {
+    margin: 10px auto;
+    width: 36px;
+    line-height: 20px;
+    height: 20px;
+    border: 1px solid green;
+    color: green;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.section-one-left-ul>li:hover {
+    background-color: azure;
+    border-bottom: 2px solid #cea861;
+}
